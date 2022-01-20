@@ -1,0 +1,109 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: "Roboto", sans-serif;
+}
+
+.djelovi {
+  height: 200px;
+  width: 500px;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 10px;
+  background-color: #c0c0c0;
+  font-size: 25px;
+  color: white;
+}
+
+.djelovi2 {
+  height: 200px;
+  width: 700px;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 10px;
+  background-color: #c0c0c0;
+  font-size: 25px;
+  color: white;
+}
+
+.dio {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  flex-direction: row;
+}
+
+.slider-container {
+  width: 90%;
+  margin: auto;
+  overflow: visible;
+  display: flex;
+  border: none;
+}
+
+.slider-slike {
+  display: flex;
+  flex-flow: column;
+  width: 70%;
+  height: 500px;
+}
+
+.slider-slike .row1 {
+  display: flex;
+  flex-flow: row;
+  justify-content: start;
+}
+.slider-slike .row2 {
+  display: flex;
+  flex-flow: row;
+  justify-content: start;
+}
+
+.slider-container img {
+  width: 200px;
+  height: 200px;
+  padding: 7px;
+  border-radius: 20px;
+}
+
+.tekst {
+  width: 30%;
+  overflow: hidden;
+  line-height: 1.5em;
+
+  color: gray;
+}
+
+button {
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+#desno {
+  display: inline-block;
+  margin-top: 300px;
+}
+
+span {
+  font-size: 32px;
+  padding: 0;
+}
+
+h2 {
+  color: aqua;
+}
